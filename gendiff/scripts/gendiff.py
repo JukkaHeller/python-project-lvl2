@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from difference_generator import gendiff
+from gendiff import gendiff
 
 
 def main():

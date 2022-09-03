@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Jukka <tor.of.minoc@gmail.com>"]
 packages = [
-  { include = "difference_generator" }
+  { include = "gendiff" },
 ]
 
 [tool.poetry.dependencies]
@@ -17,4 +17,4 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-gendiff = "difference_generator.scripts.gendiff_sc:main"
+gendiff = "gendiff.scripts.gendiff:main"
