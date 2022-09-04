@@ -3,9 +3,6 @@
 install:
 	poetry install
 
-gendiff:
-	poetry run gendiff
-
 build:
 	poetry build
 
@@ -19,4 +16,4 @@ package-uninstall:
 	python3 -m pip uninstall hexlet-code
 
 lint:
-	poetry run flake8 brain_games
+	poetry run flake8 gendiff
