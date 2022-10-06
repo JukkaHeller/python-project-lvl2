@@ -5,6 +5,7 @@ description = ""
 authors = ["Jukka <tor.of.minoc@gmail.com>"]
 packages = [
   { include = "gendiff" },
+  { include = "tests" },
 ]
 
 [tool.poetry.dependencies]
